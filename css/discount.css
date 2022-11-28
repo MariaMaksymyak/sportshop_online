@@ -2,8 +2,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-
     background-image: url(../img/background-discount.jpg);
     max-width: 100%;
     min-height: 780px;
@@ -31,7 +29,7 @@
     color:rgb(255, 0, 0);
     font-size: 124px;
 }
-/* ^23/<>73 */
+
 .discount-button {  
     background-color: white;
     width: 163px;
@@ -113,3 +111,4 @@
     #discount {
         max-height: 700;
     }
+}

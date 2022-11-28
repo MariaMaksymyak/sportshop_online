@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+
+.request_form {
+    background-image:url(../img/background_request.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    display: flex;
+    width: 500;
+}
+
+.request {
+    
+    background-color: #C0C0C0;
+    
+    border-top: var(--main-color);
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-radius: 1%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    max-width: 250px;
+    margin-bottom: 50px;
+}
+
+.request-big-title {
+    color: var(--title-color);
+    line-height: 1.2;
+    
+    font-size: 42px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.request-text {
+    
+    font-size: 17px;
+    line-height: 1.5;
+    color: var(--text-color);
+    padding-bottom: 30px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.request-form {
+    margin-bottom: 40px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.request-input {
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: var(--about-us-color);
+    border-style: none;
+}
+
+.request-submit {
+    background-color: var(--main-color);
+    border-radius: 28px;
+    height: 53.333px;
+    width: 131.875px;
+    cursor: pointer;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+}
