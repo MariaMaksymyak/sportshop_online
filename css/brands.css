@@ -1,3 +1,8 @@
+.brands_logo{
+    margin-top: 20px;
+}
+
+
 .brands_wrapper {
     background-image: url(../img/background_brands.jpg);
     background-size: cover;

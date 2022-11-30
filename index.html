@@ -9,9 +9,83 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="css/index.css">
+
 </head>
 
+
+  <header class="header" id="header">
+    <div class="banner-bg">
+      <nav class="header__nav">
+        <div class="header__container">
+          <div class="header__nav-container">
+            <div class="header__logo-container">
+              <img src="img/logo-icon.svg" alt="logo" id="logo">
+              <div class="navigation-burger">
+                <span></span>
+              </div>
+            </div>
+            <div class="navigation-wrapper">
+              <ul class="header__menu">
+                <li class="header__menu-item">
+                  <a class="header__menu-link" href="#about">About us</a>
+                </li>
+                <li class="header__menu-item">
+                  <a class="header__menu-link" href="#sale">Sale</a>
+                </li>
+                <li class="header__menu-item">
+                  <a class="header__menu-link" href="#collection">Collections</a>
+                </li>
+                <li class="header__menu-item">
+                  <a class="header__menu-link navigation__link" href="#blog">Blog</a>
+                </li>
+                <li class="header__menu-item">
+                  <a class="header__menu-link" href="#contact-us">Contact us</a>
+                </li>
+              </ul>
+              <div class="header__social-icons">
+                <ul class="header__social-icons-list">
+                  <li>
+                    <a href="https://www.facebook.com/"><img class="header__social-icons-img"
+                        src="img/facebook.svg" alt="Facebook icon"></a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/"><img class="header__social-icons-img"
+                        src="img/instagram.svg" alt="Instagram icon"></a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/"><img class="header__social-icons-img"
+                        src="img/youtube.svg" alt="Youtube icon"></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      </section>
+    </div>
+  </header>
+
 <body>
+
+  <section class="brands_logo">
+    <div>
+        <h1 class="why-title"> New collections by top brands </h1>
+    </div>
+    <div class="brends_logo">
+        
+            <img src="/img/adidas.svg" alt="card" width="200px">
+            
+            <img src="img/asics.svg" alt="card" width="200px">
+        
+            <img src="img/new_balance.svg" alt="card" width="200px">
+       
+          <img src="img/nike.svg" alt="card" width="200px">
+      
+        <img src="img/reebook.svg" alt="card" width="200px">
+    </div>
+   
+  </section>
 
     
      
@@ -115,24 +189,7 @@
   </div>
 </section>
 
-<section class="brands_logo">
-  <div>
-      <h1 class="why-title"> New collections by top brands </h1>
-  </div>
-  <div class="brends_logo">
-      
-          <img src="/img/adidas.svg" alt="card" width="200px">
-          
-          <img src="img/asics.svg" alt="card" width="200px">
-      
-          <img src="img/new_balance.svg" alt="card" width="200px">
-     
-        <img src="img/nike.svg" alt="card" width="200px">
-    
-      <img src="img/reebook.svg" alt="card" width="200px">
-  </div>
- 
-</section>
+
 
 <section class="request_form">
   <div class="request">
@@ -165,9 +222,64 @@
 </div>
 </section>
 
+<footer>
+  <section class="footer">
+    <div class="footer-navigation-block">
+      <div class="infozone">
+        <a href="#header"><img class="footer__logo" src="img/logo-icon.svg" alt="Shop Logo"></a>
+        <p class="brand__description">
+          Workout offers fitness clothing and footwear for those who want to
+          change their lives and bodies for better.
+        </p>
+      </div>
+      <div class="footer-navigation">
+        <h4 class="footer__navigation-heading">NAVIGATION</h4>
+        <span class="footer-line">_______</span>
+        <nav class="footer__nav">
+          <a href="#about" class="footer__nav-item">About us.</a>
+          <a href="#sale" class="footer__nav-item">Sale.</a>
+          <a href="#collection" class="footer__nav-item">Collections.</a>
+          <a href="#blog" class="footer__nav-item">Blog.</a>
+          <a href="#contact-us" class="footer__nav-item">Contact us.</a>
+        </nav>
+      </div>
+      <div class="footer-shop">
+        <h4 class="footer-shop__heading">SHOP</h4>
+        <span class="footer-line">_______</span>
+        <nav class="footer__shop-navigation">
+          <a href="#collection" class="footer-shop__item"> Women.</a>
+          <a href="#collection" class="footer-shop__item">Men.</a>
+          <a href="#collection" class="footer-shop__item">Shoes.</a>
+          <a href="#sale" class="footer-shop__item">Sale</a>
+        </nav>
+      </div>
+      <div class="follow-nav">
+        <h4 class="footer__follow-navigation">FOLLOW</h4>
+        <span class="footer-line">_______</span>
+        <nav class="footer__socialmedia-follow">
+          <a href="https://www.facebook.com/" class="footer__follow-item"><img src="img/facebook.svg"
+              alt="facebook icon" class="media-icon"></a>
+          <a href="https://www.instagram.com/" class="footer__follow-instagram"><img
+              src="img/instagram.svg" alt="instagram icon" class=" media-icon"></a>
+          <a href="https://www.youtube.com" class="footer__follow-item"><img src="img/youtube.svg"
+              alt="youtube icon" class="media-icon"></a>
+        </nav>
+      </div>
+    </div>
+    <div class="copyright">
+      <p class="created-by">© Created by</p>
+      <p class="all__rights-reserved">All rights Reserved</p>
+    </div>
+  </section>
+
+
+
+</footer>
+
+<script src="js/burger-menu.js"></script>
+
 
 
 </body>
-
 
 </html>
