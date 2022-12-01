@@ -42,7 +42,6 @@
     }
 
 .faq-page {
-    
     color: #444;
     cursor: pointer;
     padding: 10px 10px;
@@ -63,9 +62,9 @@
         .faq-page:hover {
             background-color: #F9F9F9;
         }
-        /* Style the faq-page panel. Note: hidden by default */
+        
         .faq-body {
-            padding: 0 20px;
+            padding: 20px 20px;
             background-color: white;
             margin-left: 70px;
             display: none;
