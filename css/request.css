@@ -75,3 +75,27 @@
     justify-content: center;
     border-style: none;
 }
+
+
+  @media (max-width: 780px) {
+    .request { 
+        max-width: 300px;
+        margin-bottom: 50px;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .request { 
+        max-width: 200px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .request-input {
+        
+        width: 150px;
+        
+    }
+  }
